@@ -119,7 +119,7 @@ func createQuiz() {
 }
 func main() {
 	var mode int
-	fmt.Println("Welcome to the Quiz Game!")
+	fmt.Println("Quizzle text-based (terminal/command prompt) interactive question and answer program.")
 	fmt.Println("Choose mode:\n\t 1. Execute Quiz\n\t 2. Create Quiz")
 	fmt.Scanln(&mode)
 
