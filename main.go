@@ -149,7 +149,7 @@ func runQuiz(){
 	var quiz Quiz
 	err = json.Unmarshal(data, &quiz)
 	if err != nil {
-		fmt.Println("Error parsing JSON data:", err)
+		fmt.Println("Error parsing Game data:", err)
 		return
 	}
 
