@@ -153,7 +153,7 @@ func runQuiz(){
 		return
 	}
 
-	fmt.Println("Welcome to the Quiz Game!")
+	fmt.Println("initialized quiz")
 	fmt.Printf("Title: %s\nLevel: %s\nTime: %d seconds\n", quiz.Title, quiz.Level, quiz.Time)
 	fmt.Println("Press Enter to start the quiz...")
 	fmt.Scanln()
